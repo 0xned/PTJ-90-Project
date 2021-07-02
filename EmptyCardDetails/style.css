@@ -1,0 +1,128 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"); */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > form {
+  /* position: absolute; */
+  width: 447px;
+  height: 450px;
+  /* left: 497px; */
+  /* top: 197px; */
+  background: #f0f2fe;
+  border-radius: 4px;
+}
+
+div.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-bottom: 20px;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(4, 11, 82, 0.8);
+}
+
+.card-input {
+  width: 298px;
+  height: 40px;
+  background: none;
+  border: 1px solid rgba(11, 29, 213, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgba(11, 29, 213, 0.6);
+}
+
+.card-input2 {
+  width: 144px;
+  height: 40px;
+  background: none;
+  border: 1px solid rgba(11, 29, 213, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+#cvv-number {
+  -webkit-text-security: disc;
+}
+
+div.pay-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 50px 0px 30px 75px;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #040b52;
+}
+
+.pay-btn {
+  width: 298px;
+  height: 47px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  background: rgba(11, 29, 213, 0.6);
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.pay-icon i {
+  position: absolute;
+}
+
+/* .pay-icon {
+  width: 100%;
+  margin-bottom: 34px;
+} */
+
+.icon {
+  margin-top: 27px;
+  margin-right: 50px;
+  padding: 10px;
+  color: #ffffff;
+  min-width: 50px;
+  text-align: left;
+}
+
+.exp-cvv {
+  display: flex;
+  flex-direction: row;
+}
+
+#expiry-date {
+  margin-right: 10px;
+}
