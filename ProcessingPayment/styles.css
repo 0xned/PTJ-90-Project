@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > section {
+  width: 447px;
+  height: 412px;
+  background: #f0f2fe;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-icon i {
+  position: absolute;
+}
+
+.loading-icon {
+  margin-left: 45%;
+  color: rgba(4, 11, 82, 0.8);
+}
+
+h3 {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+  color: rgba(4, 11, 82, 0.8);
+}
+
+p {
+  font-family: 'inter', sans-serif;
+  font-size: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 15px;
+  margin-top: -2px;
+  color: rgba(4, 11, 82, 0.8);
+}

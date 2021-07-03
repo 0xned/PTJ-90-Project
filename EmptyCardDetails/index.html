@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <form>
+    <form action="">
       <p>Enter card details</p>
       <div class="main-section">
         <label for="card-number" class="card-label">
@@ -27,7 +27,7 @@
             type="tel"
             inputmode="numeric"
             pattern="[0-9\s]{13,19}"
-            class="card-input"
+            class="card-input card"
             id="card-number"
             name="card-number"
             required
@@ -37,7 +37,7 @@
           Name on card
           <input
             type="text"
-            class="card-input"
+            class="card-input card"
             id="card-name"
             name="card-name"
             required
@@ -50,7 +50,7 @@
               type="tel"
               inputmode="numeric"
               pattern="[0-9\/]{4,5}"
-              class="card-input2"
+              class="card-input2 card"
               id="expiry-date"
               name="expiry-date"
               placeholder="MM/YY"
@@ -63,7 +63,7 @@
               type="tel"
               inputmode="numeric"
               pattern="[0-9\s]{3,3}"
-              class="card-input2"
+              class="card-input2 card"
               id="cvv-number"
               name="cvv-number"
               required
